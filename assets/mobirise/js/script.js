@@ -1,11 +1,3 @@
-
- $(window).load(function() {
-		// Animate loader off screen
-		wow.init();
-	});
-
-
-
    $('.navbar .dropdown').hover(function() {
   $(this).find('.dropdown-menu').first().stop(true, true).delay(50).fadeIn();
 }, function() {
