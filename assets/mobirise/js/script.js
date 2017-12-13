@@ -13,11 +13,6 @@
 		wow.init();
 	});
 
-$(document).ready(function() { 
-       wow.init();
-    });
-});
-
 (function($){
 
     $.extend($.easing, {
