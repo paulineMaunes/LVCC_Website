@@ -4,10 +4,10 @@
   $(this).find('.dropdown-menu').first().stop(true, true).delay(50).slideUp()
 });
 
-
-
-
-
+ $(document).bind("load", function() {
+     wow.init();
+    });
+}
 
 (function($){
 
